@@ -1,0 +1,32 @@
+{
+  "name": "@rctiplus/ui",
+  "version": "1.0.0",
+  "description": "RCTIPlus react components library",
+  "main": "./lib/rctiplus-ui.js",
+  "author": "Azhary Arliansyah",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "prop-types": "^15.7.2",
+    "babel-core": "^6.21.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^3.5.1",
+    "path": "^0.12.7",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^3.2.1"
+  },
+  "dependencies": {}
+}
