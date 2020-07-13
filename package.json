@@ -1,5 +1,5 @@
 {
-  "name": "@rctiplus/ui",
+  "name": "@rctiplus-experimental/ui",
   "version": "1.0.0",
   "description": "RCTIPlus react components library",
   "main": "./lib/rctiplus-ui.js",
@@ -32,5 +32,8 @@
     "webpack": "^4.5.0",
     "webpack-cli": "^3.2.1"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "publishConfig": {
+    "access": "public"
+  }
 }
