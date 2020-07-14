@@ -3,6 +3,8 @@
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
+const svgToMiniDataURI = require('mini-svg-data-uri');
+
 module.exports = {
     mode: 'production',
     entry: './src/rctiplus-ui.js',
@@ -25,6 +27,25 @@ module.exports = {
                     MiniCssExtractPlugin.loader,
                     'css-loader'
                 ]
+            },
+            {
+                test: /\.(gif|png|jpg|JPG)(\?.*$|$)/,
+                use: [
+                    {
+                        loader: 'url-loader'
+                    }
+                ]
+            },
+            {
+                test: /\.svg$/i,
+                use: [
+                    {
+                        loader: 'url-loader',
+                        options: {
+                            generator: (content) => svgToMiniDataURI(content.toString()),
+                        },
+                    }
+                ]
             }
         ],
     },
@@ -32,6 +53,7 @@ module.exports = {
         alias: {
             'react': path.resolve(__dirname, './node_modules/react'),
             'react-dom': path.resolve(__dirname, './node_modules/react-dom'),
+            '~': path.join(__dirname, '.')
         }
     },
     externals: {

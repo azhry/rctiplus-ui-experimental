@@ -1215,3 +1215,30 @@ select:-webkit-autofill:focus {
   -webkit-transition: background-color 5000s ease-in-out 0s;
   transition: background-color 5000s ease-in-out 0s;
 }
+
+.custom-input-with-addon:-webkit-autofill,
+.custom-input-with-addon:-webkit-autofill:hover, 
+.custom-input-with-addon:-webkit-autofill:focus {
+  border-right: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-content {
+  display: none;
+}
+
+.dropdown-content-display {
+  position: absolute;
+  background-color: #171717;
+  z-index: 1;
+  min-width: 70px;
+}

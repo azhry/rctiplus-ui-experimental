@@ -4,6 +4,8 @@ const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 
+const svgToMiniDataURI = require('mini-svg-data-uri');
+
 module.exports = {
     entry: './src/index.js',
     output: {
@@ -36,8 +38,32 @@ module.exports = {
                         }
                     }
                 ]
+            },
+            {
+                test: /\.(gif|png|jpg|JPG)(\?.*$|$)/,
+                use: [
+                    {
+                        loader: 'url-loader'
+                    }
+                ]
+            },
+            {
+                test: /\.svg$/i,
+                use: [
+                    {
+                        loader: 'url-loader',
+                        options: {
+                            generator: (content) => svgToMiniDataURI(content.toString()),
+                        },
+                    }
+                ]
             }
         ],
+    },
+    resolve: {
+        alias: {
+            '~': path.join(__dirname, '.')
+        }
     },
     plugins: [
         new MiniCssExtractPlugin({

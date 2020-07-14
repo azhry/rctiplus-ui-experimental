@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 64 (101010) - https://sketch.com -->
+    <title>D0BAC121-F5DA-44DC-A8F3-A3177AD63C88</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <filter x="-33.3%" y="-33.3%" width="166.7%" height="166.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Competition" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.-Competition_All" transform="translate(-346.000000, -672.000000)">
+            <g id="Group-8" filter="url(#filter-1)" transform="translate(348.000000, 674.000000)">
+                <circle id="Oval" fill="#F6C13F" cx="6" cy="6" r="6"></circle>
+                <text id="NEW" font-family="OpenSans-Extrabold, Open Sans" font-size="3.90697674" font-weight="600" letter-spacing="0.264472269" fill="#171717">
+                    <tspan x="0.872186946" y="7.34883721">NEW</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

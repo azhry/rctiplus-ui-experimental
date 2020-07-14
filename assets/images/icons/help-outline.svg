@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 64 (101010) - https://sketch.com -->
+    <title>E00AF964-0AFE-4224-9ABD-554E0092FF57</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20.625" height="20.625"></rect>
+    </defs>
+    <g id="Account" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="7.1.A.8.-Profile_settings" transform="translate(-14.000000, -247.000000)">
+            <g id="contactus" transform="translate(14.000000, 247.000000)">
+                <g id="baseline-mail_outline-24px">
+                    <polygon id="Path" points="0 0 22 0 22 22 0 22"></polygon>
+                    <g id="help_icon" transform="translate(0.458333, 0.458333)">
+                        <polygon id="Path" points="0 0 21.0833333 0 21.0833333 21.0833333 0 21.0833333"></polygon>
+                        <g id="Mask-Group-20" transform="translate(0.458333, 0.458333)">
+                            <g id="Mask_Group_20-Clipped">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <g id="path-1"></g>
+                                <g id="Mask_Group_20" mask="url(#mask-2)">
+                                    <g transform="translate(0.916667, 0.916667)" id="Group_81">
+                                        <g transform="translate(0.385965, 0.385965)">
+                                            <g id="Group" transform="translate(0.107901, 0.107901)" fill="#FFFFFF" fill-rule="nonzero">
+                                                <path d="M14.8450066,0 L1.65,0 C0.739720337,0.00238606645 0.00238606645,0.739720337 2.03540888e-16,1.65 L2.03540888e-16,16.4945724 L3.29891447,13.1956579 L14.8450066,13.1956579 C15.7552862,13.1932718 16.4926205,12.4559375 16.4950066,11.5456579 L16.4950066,1.65 C16.4926205,0.739720337 15.7552862,0.00238606645 14.8450066,0 Z M14.8450066,11.5460921 L3.29891447,11.5460921 L1.64891447,13.1960921 L1.64891447,1.65 L14.8445724,1.65 L14.8450066,11.5460921 Z" id="ic_chat_bubble_outline_24px"></path>
+                                                <path d="M7.63602634,9.36830922 L8.68203948,9.36830922 L8.68203948,8.32229603 L7.63602634,8.32229603 L7.63602634,9.36830922 Z M8.15903289,3.09266427 C7.6042153,3.09254927 7.07208851,3.31289868 6.67977319,3.70521398 C6.28745792,4.09752928 6.06710848,4.62965607 6.06722357,5.18447366 L7.11323685,5.18447366 C7.12147471,4.61271227 7.58732072,4.15352981 8.15914147,4.15352981 C8.73096217,4.15352981 9.19680818,4.61271227 9.20504603,5.18447366 C9.20504603,6.23048685 7.6362434,6.09957237 7.6362434,7.79928948 L8.6822566,7.79928948 C8.6822566,6.62257897 10.2510593,6.4918816 10.2510593,5.18447366 C10.2511745,4.62961845 10.0307952,4.09745874 9.63843297,3.70513719 C9.24607072,3.31281565 8.7138881,3.09249166 8.15903289,3.09266427 Z" id="Path_127"></path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

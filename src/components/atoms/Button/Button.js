@@ -23,7 +23,12 @@ const Button = ({ children, onClick, type, disabled, className }) => {
 Button.propTypes = {
     children: PropTypes.any,
     onClick: PropTypes.func,
-    type: PropTypes.oneOf(['primary', 'link'])
+    type: PropTypes.oneOf(['primary', 'link']),
+    className: PropTypes.string
+};
+
+Button.defaultProps = {
+    className: ''
 };
 
 export default Button;

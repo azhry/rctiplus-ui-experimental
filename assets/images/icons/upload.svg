@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="53px" height="53px" viewBox="0 0 53 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 64 (101010) - https://sketch.com -->
+    <title>90439042-72F8-44C8-BE83-28A5F1CE514E</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <circle id="path-1" cx="22.5" cy="22.5" r="22.5"></circle>
+        <filter x="-13.3%" y="-13.3%" width="126.7%" height="126.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="19.1980834%" y1="12.135259%" x2="84.3333688%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#ED273D" offset="0%"></stop>
+            <stop stop-color="#FF5971" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Competition" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.-Competition_All" transform="translate(-161.000000, -667.000000)">
+            <g id="Group-8" transform="translate(165.000000, 671.000000)">
+                <g id="Oval">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#F8F8F8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Group-3" transform="translate(6.000000, 6.000000)">
+                    <circle id="Oval" fill="url(#linearGradient-3)" cx="16.4000003" cy="16.4000003" r="16.0000002"></circle>
+                    <g id="upload" transform="translate(8.400000, 8.400000)" fill="#F8F8F8" fill-rule="nonzero">
+                        <path d="M14.586581,15.0292967 L1.3957312,15.0292967 C0.955040598,15.0292967 0.594337493,15.3897467 0.594337493,15.8306904 C0.594337493,16.271381 0.955040598,16.6320842 1.3957312,16.6320842 L14.594681,16.6320842 C15.0353717,16.6320842 15.3960748,16.271381 15.3960748,15.8306904 C15.3960748,15.3897467 15.0353717,15.0292967 14.586581,15.0292967 Z" id="Path"></path>
+                        <path d="M3.88799995,6.40634053 L7.18976242,2.85600936 L7.18976242,11.6072999 C7.18976242,12.0479905 7.55046552,12.4086936 7.99115612,12.4086936 C8.4320999,12.4086936 8.7925499,12.0479905 8.7925499,11.6072999 L8.7925499,2.85600936 L12.0943124,6.40634053 C12.2545405,6.57441553 12.4631155,6.66275614 12.6792842,6.66275614 C12.8716592,6.66275614 13.0721342,6.59061553 13.2242623,6.44633432 C13.5449717,6.14182493 13.5690186,5.63684054 13.2645092,5.31638433 L8.56828112,0.275653106 C8.4158999,0.115424999 8.20757801,0.0192374998 7.9833093,0.0192374998 C7.75878741,0.0192374998 7.55046552,0.115424999 7.39833741,0.275653106 L2.70210936,5.31638433 C2.39759997,5.63684054 2.42164686,6.14967182 2.74210308,6.44633432 C3.07875936,6.7508437 3.58349057,6.72679681 3.88799995,6.40634053 Z" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
