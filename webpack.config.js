@@ -1,3 +1,5 @@
+// https://medium.com/@rossbulat/how-to-publish-npm-packages-4e519744c416
+
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
@@ -49,7 +51,7 @@ module.exports = {
     },
     plugins: [
         new MiniCssExtractPlugin({
-            filename: 'rctiplus-ui.css',
+            filename: '[name].css',
         }) 
     ]
 };
